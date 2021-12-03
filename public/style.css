@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    width: 550px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    background-color: #E5E5E5;
+}
+
+header{
+    background-color: #F55A5A;
+    color: white;
+    font-weight: 500;
+    font-size: 14.46px;
+    padding: 1.5%;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+i{  
+    margin-top: 2px;
+    margin-right: 1.5%;
+}
+
+main {
+    background-color: white;
+}
+
+.flexbox{
+    display: flex;
+    padding: 6%;
+    margin-top: -0.5em;
+    align-items: center;
+}
+
+img{
+    display: flex;
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+    object-fit:  cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.flexdescription{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+}
+
+.countrymaps{
+    display: flex;
+    align-items: center;
+    margin-bottom: -0.5em;
+}
+
+.fa-2xs {
+    color: #F55A5A;
+    margin-bottom: 3px;
+}
+
+.country{
+    font-size: 11px;
+    letter-spacing: 2px;
+    margin-right: 3%;
+    color: #2B283A;
+}
+
+.mapslink{
+    font-size: 11px;
+}
+
+a:visited {
+    color: #918E9B;
+  }
+
+.h1title {
+    display: flex;
+    margin-top: auto;
+    font-weight: 700;
+    color: #2B283A;
+}
+
+.date{
+    display: flex;
+    margin-top: auto;
+    color: #2B283A;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.paragraph{
+    margin-top: -0.5em;
+    color: #2B283A;
+    font-size: 11px;
+}
+
+hr{
+    width: 90%;
+    color: #F5F5F5;
+    border-style:solid
+}
